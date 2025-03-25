@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git | Hugo Academic CV Theme</title>
-    <link>http://localhost:33441/tags/git/</link>
-      <atom:link href="http://localhost:33441/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/git/</link>
+      <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <description>Git</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:33441/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Git</title>
-      <link>http://localhost:33441/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
     </image>
     
     <item>
       <title>Git-git-git</title>
-      <link>http://localhost:33441/post/git/</link>
+      <link>http://localhost:1313/post/git/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33441/post/git/</guid>
+      <guid>http://localhost:1313/post/git/</guid>
       <description>&lt;p&gt;Version control is an essential aspect of modern software development, and Git is one of the most popular tools for managing changes to code. Whether you are working on a personal project or collaborating with a team, understanding how to use Git effectively can greatly enhance your workflow. Here’s a brief overview of Git and its key features.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
 &lt;p&gt;Git is a distributed version control system that allows multiple developers to work on a project simultaneously without interfering with each other’s changes. It tracks changes in files and enables users to revert to previous versions, making it easier to manage the evolution of a project.&lt;/p&gt;

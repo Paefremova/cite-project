@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creative Ideas | Hugo Academic CV Theme</title>
-    <link>http://localhost:33441/tags/creative-ideas/</link>
-      <atom:link href="http://localhost:33441/tags/creative-ideas/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/creative-ideas/</link>
+      <atom:link href="http://localhost:1313/tags/creative-ideas/index.xml" rel="self" type="application/rss+xml" />
     <description>Creative Ideas</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:33441/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Creative Ideas</title>
-      <link>http://localhost:33441/tags/creative-ideas/</link>
+      <link>http://localhost:1313/tags/creative-ideas/</link>
     </image>
     
     <item>
       <title>Think and everithing will be great!</title>
-      <link>http://localhost:33441/post/why-not/</link>
+      <link>http://localhost:1313/post/why-not/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33441/post/why-not/</guid>
+      <guid>http://localhost:1313/post/why-not/</guid>
       <description>&lt;h2 id=&#34;the-importance-of-reflecting-on-our-actions&#34;&gt;The Importance of Reflecting on Our Actions&lt;/h2&gt;
 &lt;p&gt;In today&amp;rsquo;s fast-paced world, it is easy to get caught up in the whirlwind of daily activities and responsibilities. However, taking the time to think and analyze our actions is crucial for personal growth and development. Reflecting on our decisions allows us to understand the motivations behind our behavior, recognize patterns, and learn from our experiences.&lt;/p&gt;
 &lt;h2 id=&#34;firstly&#34;&gt;Firstly&lt;/h2&gt;
@@ -66,9 +66,9 @@ This analytical approach enables us to make choices that align with our values a
     
     <item>
       <title>Think and everithing will be great!</title>
-      <link>http://localhost:33441/post/why-not/index1/</link>
+      <link>http://localhost:1313/post/why-not/index1/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33441/post/why-not/index1/</guid>
+      <guid>http://localhost:1313/post/why-not/index1/</guid>
       <description>&lt;h2 id=&#34;the-importance-of-reflecting-on-our-actions&#34;&gt;The Importance of Reflecting on Our Actions&lt;/h2&gt;
 &lt;p&gt;In today&amp;rsquo;s fast-paced world, it is easy to get caught up in the whirlwind of daily activities and responsibilities. However, taking the time to think and analyze our actions is crucial for personal growth and development. Reflecting on our decisions allows us to understand the motivations behind our behavior, recognize patterns, and learn from our experiences.&lt;/p&gt;
 &lt;h2 id=&#34;firstly&#34;&gt;Firstly&lt;/h2&gt;

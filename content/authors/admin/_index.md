@@ -41,87 +41,79 @@ interests:
   - Humor
 
 education:
+  - area: Junior and secondary school 
+    date_start: 2013-09-01
+    date_end: 2022-07-01
   - area: Humanities
     institution: Gymnasium 14
+    date_start: 2022-09-01
+    date_end: 2024-07-20
   - area: IT technologies 
     institution: RUDN
 
 work:
-  - position: without any decent experience
+  - position: Wihout any decent experience
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
+      - name: Math 
+        description: 'Mathematical thinking, fast counting, analysis, geometry'
+        percent: 60
+      - name: Programming 
+        description: 'Basic knowledge of programming: SQL, C/C++' 
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
+      - name: Writing Documentation, presentations and projects
+        description: 'Using many editors and programs to create presentations, reports, and projects.'
+        percent: 70
+  - name: Humanitarian skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: History
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Literature
+        description: 'Writing essays, poems, reading biographies and encyclopedias and other teaching materials'
+        percent: 60
+      - name: Social science
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        percent: 60
+
 
 languages:
   - name: English
+    percent: 50
+  - name: Russian
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: "Works in the field of local history"
+    url:
+    date: '2021-01-01'
+    awarder: Republic of Mari El
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Participation in the competition of creative works with the study of native places.
+  - title: "Reading contests"
+    url: 
+    date: '2022-02-02'
+    awarder:  Republic of Mari El
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      Performances for large audiences in various reading contests.
+  - title: "Design courses"
+    url: https://www.ispring.ru/ispring-suite?utm_source=yandex&utm_medium=cpc&utm_campaign=suite_brend_rus&utm_term=---autotargeting&utm_content=5089181545&yclid=16728613789221257215
+    date: '2023-03-03'
+    awarder: Ispring
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Master classes with the study of programs for creating landing pages, presentations, etc.
+  - title: "Math courses"
+    url:   https://3.shkolkovo.online/
+    date: '2024-04-04'
+    awarder: Shkolkovo
+    summary: |
+      mathematical knowledge.
 ---
+
 
 ## About Me
 
