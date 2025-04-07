@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🌿 Balance Between Study, Activity, and Inner Calm | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/post/week-3/</link>
+      <atom:link href="http://localhost:1313/post/week-3/index.xml" rel="self" type="application/rss+xml" />
+    <description>🌿 Balance Between Study, Activity, and Inner Calm</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/post/week-3/featured.jpg</url>
+      <title>🌿 Balance Between Study, Activity, and Inner Calm</title>
+      <link>http://localhost:1313/post/week-3/</link>
+    </image>
+    
+  </channel>
+</rss>

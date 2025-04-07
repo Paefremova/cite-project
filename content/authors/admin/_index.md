@@ -21,17 +21,17 @@ profiles:
     url: 'mailto:1132246726@rudn.ru'
     label: E-mail Me
   - icon: brands/scholar
-    url: https://scholar.google.com/@polinariaa
+    url: https://scholar.google.com/
   - icon: brands/orcid
-    url: https://orcid.org/@polinariaa
+    url: https://orcid.org/0009-0009-2067-2975
   - icon: brands/mendeley
-    url: https://www.mendeley.com/@polinariaa
+    url: https://www.mendeley.com/
   - icon: brands/research
-    url: https://www.researchgate.net/@polinariaa
+    url: https://www.researchgate.net/
   - icon: brands/academia
-    url: https://www.academia.edu/@polinariaa
+    url: https://independent.academia.edu/PolinaEfremova
   - icon: brands/arxiv
-    url: https://www.arxiv.org/@polinariia
+    url: https://www.arxiv.org/
   - icon: brands/github
     url: https://www.github.com/Paefremova/
 

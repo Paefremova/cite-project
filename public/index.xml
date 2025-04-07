@@ -363,7 +363,7 @@ This analytical approach enables us to make choices that align with our values a
 
 
 
-&lt;div id=&#34;chart-791345268&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-429675138&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -381,7 +381,7 @@ This analytical approach enables us to make choices that align with our values a
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-791345268&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-429675138&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
