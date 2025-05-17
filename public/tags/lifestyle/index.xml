@@ -5,12 +5,133 @@
     <link>http://localhost:1313/tags/lifestyle/</link>
       <atom:link href="http://localhost:1313/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
     <description>Lifestyle</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Lifestyle</title>
       <link>http://localhost:1313/tags/lifestyle/</link>
     </image>
+    
+    <item>
+      <title>🌿 Balance Between Study, Activity, and Inner Calm</title>
+      <link>http://localhost:1313/post/week-3/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/week-3/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#-activity--a-way-of-life&#34;&gt;🌞 Activity — A Way of Life&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-how-to-set-a-good-sleep-routine&#34;&gt;😴 How to Set a Good Sleep Routine&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-study-how-to-study-smarter-not-longer&#34;&gt;📚 Study: How to Study Smarter, Not Longer&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-comments-on-techniques&#34;&gt;🔎 Comments on Techniques&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-beautiful-and-hidden-parks-in-moscow&#34;&gt;🌳 Beautiful and Hidden Parks in Moscow&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-lianozovsky-park&#34;&gt;🌲 Lianozovsky Park&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-kuskovo-forest-park&#34;&gt;🌳 Kuskovo Forest Park&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-timiryazevsky-forest&#34;&gt;🌿 Timiryazevsky Forest&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-bitsevsky-forest&#34;&gt;🍃 Bitsevsky Forest&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-conclusion&#34;&gt;💬 Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;style&gt;
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --accent-green: #3cb371;
+  --accent-yellow: #ffeb3b;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+
+h2, h3 {
+  color: var(--accent-green);
+}
+
+strong {
+  color: var(--accent-yellow);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;-activity--a-way-of-life&#34;&gt;🌞 Activity — A Way of Life&lt;/h2&gt;
+&lt;p&gt;I try not to sit still every day: morning walks, trips around the Moscow Central Circle (already my favorite habit!), short routes through cozy alleys, or sudden stops in parks with a book. It not only gives me a boost of energy but also inspires me.&lt;/p&gt;
+&lt;p&gt;I notice how regular walks help me not only physically but mentally. My brain “air-dries,” new ideas come, and even a tired mind seems to come alive.&lt;/p&gt;
+&lt;h2 id=&#34;-how-to-set-a-good-sleep-routine&#34;&gt;😴 How to Set a Good Sleep Routine&lt;/h2&gt;
+&lt;p&gt;Here’s what really helps me get enough sleep and not lose energy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⏰ &lt;strong&gt;Double alarm&lt;/strong&gt;: one for waking up and one for going to sleep&lt;/li&gt;
+&lt;li&gt;📵 &lt;strong&gt;Screen detox&lt;/strong&gt; one hour before sleep (replace it with a book or notebook)&lt;/li&gt;
+&lt;li&gt;🧘‍♀️ &lt;strong&gt;The &amp;ldquo;3 Blocks&amp;rdquo; technique&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;60 minutes before bed — soft light, no screens&lt;/li&gt;
+&lt;li&gt;30 minutes before — breathing exercises or meditation&lt;/li&gt;
+&lt;li&gt;10 minutes before — short gratitude journaling&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Small habits work wonders: my mood improved, my attention became more stable, and the days became more fulfilling but not exhausting.&lt;/p&gt;
+&lt;h2 id=&#34;-study-how-to-study-smarter-not-longer&#34;&gt;📚 Study: How to Study Smarter, Not Longer&lt;/h2&gt;
+&lt;p&gt;Here’s my study formula:&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph LR
+A[Reading] --&gt; B[Note-taking]
+B --&gt; C[Rephrasing out loud]
+C --&gt; D[Self-testing]
+D --&gt; E[Review after 1 day]
+E --&gt; F[Review after 1 week]
+&lt;/div&gt;
+&lt;h2 id=&#34;-comments-on-techniques&#34;&gt;🔎 Comments on Techniques&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feynman Technique&lt;/strong&gt; — helps identify weak spots in understanding. If you can’t explain it simply, you haven’t understood it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spaced Repetition&lt;/strong&gt; — based on Ebbinghaus’s forgetting curve. You review right before forgetting it — and remember it for much longer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt; — protects against burnout. After 4 &amp;ldquo;Pomodoros,&amp;rdquo; you can tackle a tough topic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mind Maps&lt;/strong&gt; — perfect for logic and associations. Especially useful for theory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-beautiful-and-hidden-parks-in-moscow&#34;&gt;🌳 Beautiful and Hidden Parks in Moscow&lt;/h2&gt;
+&lt;p&gt;These parks won&amp;rsquo;t have crowds of tourists, but they’ll offer plenty of space, trees, and silence.&lt;/p&gt;
+&lt;h3 id=&#34;-lianozovsky-park&#34;&gt;🌲 Lianozovsky Park&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: North Moscow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Forest atmosphere, wide paths, few people&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Perfect for a morning coffee and reading under the trees&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-kuskovo-forest-park&#34;&gt;🌳 Kuskovo Forest Park&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: East Moscow, Veshnyaki district&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Estate, old pond, real forest&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Great for walking while listening to podcasts or recording voice notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-timiryazevsky-forest&#34;&gt;🌿 Timiryazevsky Forest&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: Near the &amp;ldquo;Timiryazevskaya&amp;rdquo; platform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Wild trails, squirrels, pine scent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Great for solitude, you can even study there&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-bitsevsky-forest&#34;&gt;🍃 Bitsevsky Forest&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: South Moscow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Really feels like a forest, not a park. Paths, ravines, streams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tip&lt;/strong&gt;: If you&amp;rsquo;re tired of everything — just walk along the path and breathe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;💬 Conclusion&lt;/h2&gt;
+&lt;p&gt;The week was busy, but balanced: study, activity, walks, a bit of rest — everything in its place. I realized that the most important thing is &lt;strong&gt;not the amount of things you do, but how you feel during the process&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Stay active but take care of yourself 💚&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>🌿 A Week Outdoors, Studying, and the Concert of My Dreams 🎶</title>
