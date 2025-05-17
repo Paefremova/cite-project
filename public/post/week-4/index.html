@@ -41,10 +41,10 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Wrapping up SFML geometry, prepping a C&#43;&#43; defense, and brainstorming an interactive scholarship game." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/projects/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/week-4/" />
 
   
   
@@ -156,12 +156,14 @@
 
   
   
+    <link rel="alternate" href="/post/week-4/index.xml" type="application/rss+xml" title="Hugo Academic CV Theme" />
+  
 
   
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="http://localhost:1313/projects/" />
+  <link rel="canonical" href="http://localhost:1313/post/week-4/" />
 
   
   
@@ -172,7 +174,6 @@
   
   
     
-    
   
   
 
@@ -181,34 +182,28 @@
     
     
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
     <meta property="twitter:site" content="@GetResearchDev" />
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="http://localhost:1313/projects/" />
-  <meta property="og:title" content="Projects | Hugo Academic CV Theme" />
-  <meta property="og:description" content="" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="http://localhost:1313/post/week-4/" />
+  <meta property="og:title" content="💻 Code, Creativity, and Campus Life — My Mid‑May Highlights ✨ | Hugo Academic CV Theme" />
+  <meta property="og:description" content="Wrapping up SFML geometry, prepping a C&#43;&#43; defense, and brainstorming an interactive scholarship game." /><meta property="og:image" content="http://localhost:1313/post/week-4/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/post/week-4/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
-      <meta
-        property="article:published_time"
-        content="2024-05-19T00:00:00&#43;00:00"
-      />
+      <meta property="og:updated_time" content="2025-05-17T00:00:00&#43;00:00" />
     
-    <meta property="article:modified_time" content="2024-05-19T00:00:00&#43;00:00">
   
 
   
 
 
 
-  
 
-
-  <title>Projects | Hugo Academic CV Theme</title>
+  <title>💻 Code, Creativity, and Campus Life — My Mid‑May Highlights ✨ | Hugo Academic CV Theme</title>
 
   
   
@@ -665,7 +660,7 @@
       
       <li class="nav-item">
         <a
-          class="nav-link active"
+          class="nav-link "
           
           href="/projects/"
         >Projects</a
@@ -746,331 +741,124 @@
         
       
     </div>
-    <div class="page-body ">
+    <div class="page-body  my-10">
       
 
-  
-  
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    <h1 class="lg:text-6xl">💻 Code, Creativity, and Campus Life — My Mid‑May Highlights ✨</h1>
     
 
 
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-collection" class="relative hbb-section blox-collection  " style="padding: 5rem 0 5rem 0;" >
- <div class="home-section-bg " >
-   
- </div>
-  
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
-
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    Selected Projects
+<details class="print:hidden xl:hidden" open>
+  <summary>Table of Contents</summary>
+  <div class="text-sm">
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#-sfml-geometry-comes-alive">🎨 SFML Geometry Comes Alive</a></li>
+        <li><a href="#-cvect--matrix--defense-mode-on">🛡️ C++ Vect &amp; Matrix — Defense Mode On</a></li>
+        <li><a href="#-scholarship-game-brainstorm">🧩 Scholarship Game Brainstorm</a></li>
+        <li><a href="#-sanity-breaks">🌱 Sanity Breaks</a></li>
+      </ul>
+    </li>
+    <li><a href="#-your-turn">🔄 Your Turn</a></li>
+  </ul>
+</nav>
   </div>
+</details>
 
-  <p>I enjoy making things. Here are a selection of projects that I have worked on over the years.</p>
+<style>
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --accent-green: #3cb371;
+  --accent-yellow: #ffeb3b;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+
+h2, h3 {
+  color: var(--accent-green);
+}
+
+strong {
+  color: var(--accent-yellow);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+</style>
+<p>The past seven days felt like <strong>one long sprint peppered with aha‑moments</strong>.</p>
+<h3 id="-sfml-geometry-comes-alive">🎨 SFML Geometry Comes Alive</h3>
+<p>I finally wired up my <strong>hierarchy of geometric shapes</strong> in SFML—think circles morphing into triangles, all with virtual inheritance purring under the hood. Seeing the scene run at 60 FPS was the chef’s kiss.</p>
+<h3 id="-cvect--matrix--defense-mode-on">🛡️ C++ Vect &amp; Matrix — Defense Mode On</h3>
+<p>Next up: polishing slides for the big <strong>Technology Programming lab defense</strong>. I’ve been dissecting every constructor, pointer, and overloaded operator so I can field any curveball.</p>
+<blockquote>
+<p><strong>Mini‑win:</strong> rewrote all console outputs to Russian and renamed every variable to something readable. Feels good!</p></blockquote>
+<h3 id="-scholarship-game-brainstorm">🧩 Scholarship Game Brainstorm</h3>
+<p>Between compile runs, I sketched mechanics for an <strong>interactive scholarship workshop</strong>: card decks for types of aid, improv scenes about budgeting, and a scoreboard to keep first‑years engaged.</p>
+<h3 id="-sanity-breaks">🌱 Sanity Breaks</h3>
+<ul>
+<li><strong>Walks around the MCC</strong> loop to clear my head.</li>
+<li>Evening <strong>stretch sessions</strong> so my shoulders forgive the laptop hunch.</li>
+<li>A strict <strong>“lights‑out‑by‑midnight”</strong> rule—honestly the best debugging tool.</li>
+</ul>
+<div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+<span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+  <svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/></svg>
+</span>
+  <span class="dark:text-neutral-300"><h3 id="-focused-sprints">✔ Focused Sprints</h3>
+<p>I’m timing study blocks with a 45 min / 10 min rhythm. Keeps fatigue away and IDE tabs under control.</p></span>
 </div>
-
-
-<div class="flex flex-col items-center px-6">
-
-  
-  
-
-
-<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
-  <div class="grid gap-10 md:grid-cols-3 lg:gap-10">
-
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="group cursor-pointer">
-
-  
-  
-  
-    
-  
-  
-  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
-
-    <a
-      class="relative block aspect-video"
-      href="https://github.com/Paefremova/study_2024-2025_os-intro" target="_blank" rel="noopener">
-
-      <img alt="Os-intro"
-           class="object-contain transition-all"
-           data-nimg="fill"
-           decoding="async"
-           fetchpriority="high" height="187" loading="lazy" src="/project/os-intro/featured_hu_8ad5dbe9c06e90e.webp"
-           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="200"></a>
-  </div>
-  
-  <div class="">
-    <div class="">
-      <div class="flex gap-3">
-        
-        <a href="/tags/computers-systems/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Computers&#39; Systems</span></a>
-        
-      </div>
-      
-      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="https://github.com/Paefremova/study_2024-2025_os-intro" target="_blank" rel="noopener"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Os-intro<svg style="height: 1em;" class="inline-flex h-6 w-6 pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
-          </span></a>
-      </h2>
-      
-      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="https://github.com/Paefremova/study_2024-2025_os-intro" target="_blank" rel="noopener">
-        Reports and reports, more than labs(</a></p>
-      </div>
-      <div class="flex-none">
-        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
-          
-          
-          <time class="truncate text-sm" datetime="2025-01-01">Jan 1, 2025</time>
-        </div>
-      </div>
-
-    </div>
-  </div>
+<div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+<span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+  <svg height="24" viewBox="0 0 370 391" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill-rule="evenodd"><path d="m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z" fill="#ff4088" stroke="#c9177e" stroke-width="27" /><path d="m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z" fill="#fff" /></g></svg>
+</span>
+  <span class="dark:text-neutral-300"><h3 id="-snack-stack">✔ Snack Stack</h3>
+<ul>
+<li><strong>Орехи</strong> for quick brain fuel.</li>
+<li><strong>Гречка</strong> + veggies = slow carbs that last through a coding marathon.</li>
+<li>Limiting coffee to <strong>2 cups</strong>—after that it’s herbal tea or bust.</li>
+</ul>
+</span>
 </div>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="group cursor-pointer">
-
-  
-  
-  
-    
-  
-  
-  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
-
-    <a
-      class="relative block aspect-video"
-      href="https://github.com/Paefremova/study_2024-2025_arh-pc" target="_blank" rel="noopener">
-
-      <img alt="Arch-pc"
-           class="object-contain transition-all"
-           data-nimg="fill"
-           decoding="async"
-           fetchpriority="high" height="512" loading="lazy" src="/project/arch-pc/featured_hu_b4d3874fa9e63402.webp"
-           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="512"></a>
-  </div>
-  
-  <div class="">
-    <div class="">
-      <div class="flex gap-3">
-        
-        <a href="/tags/computer-science/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Computer Science</span></a>
-        
-      </div>
-      
-      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="https://github.com/Paefremova/study_2024-2025_arh-pc" target="_blank" rel="noopener"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Arch-pc<svg style="height: 1em;" class="inline-flex h-6 w-6 pl-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
-          </span></a>
-      </h2>
-      
-      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="https://github.com/Paefremova/study_2024-2025_arh-pc" target="_blank" rel="noopener">
-        </a></p>
-      </div>
-      <div class="flex-none">
-        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
-          
-          
-          <time class="truncate text-sm" datetime="2024-10-10">Oct 10, 2024</time>
-        </div>
-      </div>
-
-    </div>
-  </div>
+<div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+<span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+  <svg height="24" viewBox="0 0 370 391" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill-rule="evenodd"><path d="m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z" fill="#ff4088" stroke="#c9177e" stroke-width="27" /><path d="m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z" fill="#fff" /></g></svg>
+</span>
+  <span class="dark:text-neutral-300"><h3 id="-move-it-keep-it-fun">✔ Move It, Keep It Fun</h3>
+<p>Short MCC rides double as sightseeing and micro‑workouts (hello, standing carriages!). Fresh air resets my focus better than any to‑do app.</p></span>
 </div>
+<h2 id="-your-turn">🔄 Your Turn</h2>
+<p>What’s the most satisfying project milestone you hit this week? Drop a comment—let’s swap wins! 🎉</p>
 
-  
-
-    </div>
-</div>
-
-
+  </article>
 </div>
 
 
 
 
+<div class="flex flex-col items-center">
+
+  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+
+
+  
+  
+
+  </div>
 
 
   
 
-  
-</section>
 
-  
+</div>
 
 
     </div>

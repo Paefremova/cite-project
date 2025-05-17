@@ -5,12 +5,110 @@
     <link>http://localhost:1313/tags/student-life/</link>
       <atom:link href="http://localhost:1313/tags/student-life/index.xml" rel="self" type="application/rss+xml" />
     <description>Student Life</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Student Life</title>
       <link>http://localhost:1313/tags/student-life/</link>
     </image>
+    
+    <item>
+      <title>💻 Code, Creativity, and Campus Life — My Mid‑May Highlights ✨</title>
+      <link>http://localhost:1313/post/week-4/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/week-4/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-sfml-geometry-comes-alive&#34;&gt;🎨 SFML Geometry Comes Alive&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-cvect--matrix--defense-mode-on&#34;&gt;🛡️ C++ Vect &amp;amp; Matrix — Defense Mode On&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-scholarship-game-brainstorm&#34;&gt;🧩 Scholarship Game Brainstorm&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#-sanity-breaks&#34;&gt;🌱 Sanity Breaks&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-your-turn&#34;&gt;🔄 Your Turn&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;style&gt;
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --accent-green: #3cb371;
+  --accent-yellow: #ffeb3b;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+
+h2, h3 {
+  color: var(--accent-green);
+}
+
+strong {
+  color: var(--accent-yellow);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+&lt;/style&gt;
+&lt;p&gt;The past seven days felt like &lt;strong&gt;one long sprint peppered with aha‑moments&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;-sfml-geometry-comes-alive&#34;&gt;🎨 SFML Geometry Comes Alive&lt;/h3&gt;
+&lt;p&gt;I finally wired up my &lt;strong&gt;hierarchy of geometric shapes&lt;/strong&gt; in SFML—think circles morphing into triangles, all with virtual inheritance purring under the hood. Seeing the scene run at 60 FPS was the chef’s kiss.&lt;/p&gt;
+&lt;h3 id=&#34;-cvect--matrix--defense-mode-on&#34;&gt;🛡️ C++ Vect &amp;amp; Matrix — Defense Mode On&lt;/h3&gt;
+&lt;p&gt;Next up: polishing slides for the big &lt;strong&gt;Technology Programming lab defense&lt;/strong&gt;. I’ve been dissecting every constructor, pointer, and overloaded operator so I can field any curveball.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mini‑win:&lt;/strong&gt; rewrote all console outputs to Russian and renamed every variable to something readable. Feels good!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;-scholarship-game-brainstorm&#34;&gt;🧩 Scholarship Game Brainstorm&lt;/h3&gt;
+&lt;p&gt;Between compile runs, I sketched mechanics for an &lt;strong&gt;interactive scholarship workshop&lt;/strong&gt;: card decks for types of aid, improv scenes about budgeting, and a scoreboard to keep first‑years engaged.&lt;/p&gt;
+&lt;h3 id=&#34;-sanity-breaks&#34;&gt;🌱 Sanity Breaks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Walks around the MCC&lt;/strong&gt; loop to clear my head.&lt;/li&gt;
+&lt;li&gt;Evening &lt;strong&gt;stretch sessions&lt;/strong&gt; so my shoulders forgive the laptop hunch.&lt;/li&gt;
+&lt;li&gt;A strict &lt;strong&gt;“lights‑out‑by‑midnight”&lt;/strong&gt; rule—honestly the best debugging tool.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-focused-sprints&#34;&gt;✔ Focused Sprints&lt;/h3&gt;
+&lt;p&gt;I’m timing study blocks with a 45 min / 10 min rhythm. Keeps fatigue away and IDE tabs under control.&lt;/p&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; viewBox=&#34;0 0 370 391&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;g clip-rule=&#34;evenodd&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;path d=&#34;m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z&#34; fill=&#34;#ff4088&#34; stroke=&#34;#c9177e&#34; stroke-width=&#34;27&#34; /&gt;&lt;path d=&#34;m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z&#34; fill=&#34;#fff&#34; /&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-snack-stack&#34;&gt;✔ Snack Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Орехи&lt;/strong&gt; for quick brain fuel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Гречка&lt;/strong&gt; + veggies = slow carbs that last through a coding marathon.&lt;/li&gt;
+&lt;li&gt;Limiting coffee to &lt;strong&gt;2 cups&lt;/strong&gt;—after that it’s herbal tea or bust.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; viewBox=&#34;0 0 370 391&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;g clip-rule=&#34;evenodd&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;path d=&#34;m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z&#34; fill=&#34;#ff4088&#34; stroke=&#34;#c9177e&#34; stroke-width=&#34;27&#34; /&gt;&lt;path d=&#34;m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z&#34; fill=&#34;#fff&#34; /&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-move-it-keep-it-fun&#34;&gt;✔ Move It, Keep It Fun&lt;/h3&gt;
+&lt;p&gt;Short MCC rides double as sightseeing and micro‑workouts (hello, standing carriages!). Fresh air resets my focus better than any to‑do app.&lt;/p&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;-your-turn&#34;&gt;🔄 Your Turn&lt;/h2&gt;
+&lt;p&gt;What’s the most satisfying project milestone you hit this week? Drop a comment—let’s swap wins! 🎉&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>🌿 Balance Between Study, Activity, and Inner Calm</title>
