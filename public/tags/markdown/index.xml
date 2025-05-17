@@ -182,7 +182,7 @@ hard work. That’s why he decided to share his thoughts on Git and version cont
 
 
 
-&lt;div id=&#34;chart-146583927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-985431627&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -200,7 +200,7 @@ hard work. That’s why he decided to share his thoughts on Git and version cont
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-146583927&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-985431627&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

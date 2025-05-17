@@ -269,7 +269,7 @@ This analytical approach enables us to make choices that align with our values a
 
 
 
-&lt;div id=&#34;chart-146583927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-279548613&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -287,7 +287,7 @@ This analytical approach enables us to make choices that align with our values a
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-146583927&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-279548613&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -469,6 +469,14 @@ Crash --&gt; [*]
       <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/end/</guid>
       <description></description>
     </item>
     

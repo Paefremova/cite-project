@@ -35,10 +35,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a student and i research this world. I like trying new things, now I'm into programming! 
-        Please reach out to collaborate 😃
+        Use this area to speak to your mission. I'm a student and I blog about programming, my life and Math! 
     design:
       columns: '1'
+
   - block: collection
     id: news
     content:
@@ -48,7 +48,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 8
       # Filter on criteria
       filters:
         author: ""

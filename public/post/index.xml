@@ -13,6 +13,119 @@
     </image>
     
     <item>
+      <title>🧪 Diving into Scientific Programming: From FORTRAN to Python 🔬</title>
+      <link>http://localhost:1313/post/end/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/end/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-what-makes-a-language-scientific&#34;&gt;💡 What Makes a Language &lt;em&gt;Scientific&lt;/em&gt;?&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-a-splash-of-neon-code&#34;&gt;🎨 A Splash of Neon Code&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#-why-this-matters&#34;&gt;📚 Why This Matters&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-your-turn&#34;&gt;🌟 Your Turn&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;style&gt;
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --accent-green: #3cb371;
+  --accent-yellow: #ffeb3b;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+
+h2, h3 {
+  color: var(--accent-green);
+}
+
+strong {
+  color: var(--accent-yellow);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+&lt;/style&gt;
+&lt;hr&gt;
+&lt;p&gt;This week was all about &lt;strong&gt;scientific programming languages&lt;/strong&gt;—where code meets computation and math becomes executable. Whether it&amp;rsquo;s &lt;strong&gt;Python with NumPy&lt;/strong&gt;, &lt;strong&gt;FORTRAN from the old school&lt;/strong&gt;, or even &lt;strong&gt;Julia for cutting-edge performance&lt;/strong&gt;, I got to &lt;strong&gt;peek into the engines behind scientific discovery&lt;/strong&gt;. 🧠✨&lt;/p&gt;
+&lt;h3 id=&#34;-what-makes-a-language-scientific&#34;&gt;💡 What Makes a Language &lt;em&gt;Scientific&lt;/em&gt;?&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s not just about writing code—it&amp;rsquo;s about &lt;strong&gt;precision, performance, and numerical stability&lt;/strong&gt;. Languages in this domain are designed to handle:
+🔹 Complex math structures
+🔹 Large data arrays
+🔹 Fast matrix computations
+🔹 Real-time simulations&lt;/p&gt;
+&lt;p&gt;Let’s be honest: &lt;strong&gt;FORTRAN&lt;/strong&gt; may look vintage, but it &lt;em&gt;still powers climate models and physics engines&lt;/em&gt;! Meanwhile, &lt;strong&gt;Python + libraries&lt;/strong&gt; (like SciPy, Matplotlib, and SymPy) makes scientific computing more readable and accessible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-a-splash-of-neon-code&#34;&gt;🎨 A Splash of Neon Code&lt;/h2&gt;
+&lt;p&gt;Here’s a small snippet I styled up in VS Code with some bright &lt;strong&gt;neon syntax highlighting&lt;/strong&gt; (dark mode always 🔥):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 🧠 Neon Brainwave Simulation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pi&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;signal&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;signal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#39FF14&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Neon green line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;🧠 Brainwave Composite Signal&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#00FFFF&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;grid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Neon tip: Try using &lt;code&gt;One Dark Pro&lt;/code&gt; or &lt;code&gt;SynthWave &#39;84&lt;/code&gt; themes for extra glow in your coding life!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-why-this-matters&#34;&gt;📚 Why This Matters&lt;/h3&gt;
+&lt;p&gt;Scientific programming isn’t just for labs. It sharpens &lt;strong&gt;how you think about problems&lt;/strong&gt;, how you structure solutions, and how you &lt;strong&gt;communicate logic with precision&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;And yes, watching your math turn into &lt;strong&gt;visual graphs and patterns&lt;/strong&gt; is incredibly satisfying. 🌈&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-start-simple-think-deep&#34;&gt;✔ Start Simple, Think Deep&lt;/h3&gt;
+&lt;p&gt;Even a basic &lt;code&gt;for&lt;/code&gt; loop doing numerical integration can teach you so much more than a dozen theory pages.&lt;/p&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; viewBox=&#34;0 0 370 391&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;g clip-rule=&#34;evenodd&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;path d=&#34;m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z&#34; fill=&#34;#ff4088&#34; stroke=&#34;#c9177e&#34; stroke-width=&#34;27&#34; /&gt;&lt;path d=&#34;m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z&#34; fill=&#34;#fff&#34; /&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-top-tools-to-explore&#34;&gt;✔ Top Tools to Explore&lt;/h3&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Python (NumPy, SymPy, Matplotlib)&lt;/strong&gt; – modern, intuitive
+🔹 &lt;strong&gt;FORTRAN&lt;/strong&gt; – unbeatable speed in math-heavy contexts
+🔹 &lt;strong&gt;Julia&lt;/strong&gt; – high-level syntax + C-like speed
+🔹 &lt;strong&gt;R&lt;/strong&gt; – great for data science &amp;amp; statistical models&lt;/p&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; viewBox=&#34;0 0 370 391&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;g clip-rule=&#34;evenodd&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;path d=&#34;m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z&#34; fill=&#34;#ff4088&#34; stroke=&#34;#c9177e&#34; stroke-width=&#34;27&#34; /&gt;&lt;path d=&#34;m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z&#34; fill=&#34;#fff&#34; /&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;h3 id=&#34;-visualization--understanding&#34;&gt;✔ Visualization = Understanding&lt;/h3&gt;
+&lt;p&gt;Don’t just compute—&lt;strong&gt;plot it&lt;/strong&gt;. A graph can reveal what numbers hide.&lt;/p&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;-your-turn&#34;&gt;🌟 Your Turn&lt;/h2&gt;
+&lt;p&gt;Have you ever tried coding something scientific? A simulation? A math visualizer? Drop a snippet or idea below—I’d love to see your scientific side! 💬💻&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
       <title>🌿 A Week Outdoors, Studying, and the Concert of My Dreams 🎶</title>
       <link>http://localhost:1313/post/week-2/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
@@ -172,7 +285,7 @@ Use &lt;code&gt;&amp;gt;&lt;/code&gt; for blockquotes:&lt;/p&gt;&lt;/blockquote&
 
 
 
-&lt;div id=&#34;chart-146583927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-267541983&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -190,7 +303,7 @@ Use &lt;code&gt;&amp;gt;&lt;/code&gt; for blockquotes:&lt;/p&gt;&lt;/blockquote&
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-146583927&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-267541983&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
